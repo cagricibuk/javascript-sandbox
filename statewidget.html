@@ -1,0 +1,204 @@
+<!DOCTYPE html> 
+<html>
+    <style>
+        .status{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:yellow;
+            font-size:32px;
+            position:absolute;
+            margin-top:-20px;
+            margin-left:50px;
+            
+
+        }
+    .diskutu{
+        width:320px;
+        height:140px;
+        background-color:black;
+        border:3px solid blueviolet;
+        margin-top:20px; 
+        
+
+    }
+    .bar1{
+        background-color:white;
+        height:10px;
+        width:240px;
+        margin-top:16px;
+        margin-left:70px;
+        border-radius:50px;
+        box-shadow:3px 3px gray; 
+        
+
+    }
+    .bar2{
+        background-color:white;
+        height:10px;
+        width:240px;
+        margin-top:16px;
+        margin-left:70px;
+        border-radius:50px;
+        box-shadow:3px 3px gray; 
+        
+
+    }
+    .bar3{
+        background-color:white;
+        height:10px;
+        width:240px;
+        margin-top:16px;
+        margin-left:70px;
+        border-radius:50px;
+        box-shadow:3px 3px gray; 
+        
+      
+        
+
+    }
+    .yazi{
+        color:white;
+        width:60px;
+        height:16px;
+        margin-top:10px;
+        margin-left:-65px;
+        background-color:rgb(73, 82, 161);
+        border-radius:50px;
+        padding:1px;
+        
+    }
+    #ilerleme1{
+        background-color:green;
+        height:8px;
+        width:120px;
+        margin-top:17px;
+        margin-left:70px;
+        border-radius:50px;
+        position:absolute;
+
+    }
+    #ilerleme2{
+        background-color:green;
+        height:8px;
+        width:160px;
+        margin-top:17px;
+        margin-left:70px;
+        border-radius:50px;
+        position:absolute;
+
+    }
+    #ilerleme3{
+        background-color:green;
+        height:8px;
+        width:220px;
+        margin-top:17px;
+        margin-left:70px;
+        border-radius:50px;
+        position:absolute;
+
+    }
+    #yazi{
+        
+        text-align:center;
+        border:2px solid yellow;
+        
+        color:white;
+    }
+    </style>
+    <body>
+        <p class="status">DURUM</p>
+        
+        <div class="diskutu">
+                
+               
+                <div class="ilerleme1" id="ilerleme1"></div>    
+            <div class="bar1"><p class="yazi">SU</p></div>
+            <div class="ilerleme2" id="ilerleme2"></div>
+            <div class="bar2"> <p class="yazi">YEMEK</p></div>
+            <div class="ilerleme3" id="ilerleme3"></div>
+            <div class="bar3"><P class="yazi">UYKU</P></div>
+            <br>
+            <p  id="yazi"></p>
+            
+        </div>
+    </body>
+    <script>
+       var yazi = document.getElementById("yazi");
+       
+      var yemekdegeri =  document.getElementById("ilerleme2");
+      var sudegeri = document.getElementById("ilerleme1");
+      var uykudegeri = document.getElementById("ilerleme3");
+      var id3 = setInterval(frame3,1000);
+      var id2 = setInterval(frame2,1000);
+      var id = setInterval(frame,1000);
+      var sayideger = 160;
+      var sayideger2 = 120;
+      var sayideger3 = 220;
+      function frame3(){
+       
+    if(sayideger3 < 40){
+        
+        setTimeout(uyuyemek,4000);
+           function uyuyemek(){
+            yazi.innerHTML = "Uyku degeri kritik Uyunuyor = "+sayideger3;
+               sayideger3+=40;
+               uykudegeri.style.width = Number(sayideger3) +"px";
+           } 
+        
+        
+    }else{
+        sayideger3 -=2;
+        uykudegeri.style.width = Number( sayideger3) + "px";
+    }
+        
+    
+    
+}
+      function frame2(){
+        
+    if(sayideger2 < 15){
+        
+        setTimeout(suyemek,4000);
+           function suyemek(){
+            yazi.innerHTML = "Su degeri kritik su içiliyor = "+sayideger2;
+               sayideger2+=26;
+               sudegeri.style.width = Number(sayideger2) +"px";
+           } 
+        
+        
+    }else{
+        sayideger2 -=5;
+        sudegeri.style.width = Number( sayideger2) + "px";
+    }
+        
+        
+    
+}
+       
+function frame(){
+    
+    if(sayideger < 30){
+        
+        setTimeout(yemekyemek,4000);
+           function yemekyemek(){
+            yazi.innerHTML = "Yemek degeri kritik yemek yeniyor = "+sayideger;
+               sayideger+=18;
+               yemekdegeri.style.width = Number(sayideger) +"px";
+           } 
+        
+        
+    }else{
+        sayideger -=3;
+        yemekdegeri.style.width = Number( sayideger) + "px";
+    }
+       
+    
+}
+setInterval(sayma,1000);
+    function sayma(){
+        yazi.innerHTML = " SU = "+sayideger2+" YEMEK = "+ sayideger+" ENERJİ = "+sayideger3 ;
+       
+        
+    }
+
+    </script>
+</html>
