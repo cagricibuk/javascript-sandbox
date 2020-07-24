@@ -1,0 +1,73 @@
+body{
+    background-color:black;
+}
+#kare{
+    background-color:white;
+    height:200px;
+    width:90%;
+    border-radius:20px;
+    margin-left:5%;
+    color:White;
+    font-size:64px;
+    text-align:center;
+    padding-top:60px;
+
+}
+#kkare{
+    background-color:white;
+    height:100px;
+    width:100%;
+    border-radius:20px;
+    margin-left:0%;
+    color:black;
+    text-align:center;
+
+
+}
+
+#mor{
+background-color:purple;
+height:80px;
+width:14%;
+
+margin-left:9%;
+margin-top:30px;
+
+
+
+}
+#mavi{
+background-color:blue;
+height:80px;
+width:14%;
+margin-left:9%;
+
+
+}
+#sari{
+background-color:yellow;
+height:80px;
+width:14%;
+margin-left:9%;
+
+
+}
+#kirmizi{
+background-color:red;
+height:80px;
+width:14%;
+margin-left:9%;
+
+
+}
+#startbutton{
+background-color:rgba(32, 179, 179, 0.26);
+height:80px;
+width:60%;
+color:white;
+font-family:arial;
+font-size:26px;
+margin-left:20%;
+border-radius:40px;
+border-style:dashed;
+}

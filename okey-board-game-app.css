@@ -1,0 +1,230 @@
+body{
+    background-image: url("2.jpg");
+}
+#buttonayarlari{
+height:200px;
+width:280px;
+background:cornflowerblue;
+border:2px solid purple;
+display:inline-block;
+}
+button{
+margin:2px;
+}
+#takim2puan{
+
+margin-left: 27%; 
+
+
+display: inline-block; 
+text-align: center; 
+}
+#takim1puan{
+
+
+margin-left:  27%; 
+
+
+display: inline-block; 
+text-align: center; 
+}
+#sonuclar{
+
+text-align:center;
+width:80%;
+background-color:rgb(17, 39, 54);
+border:2px solid silver;
+color:white;
+display:none;
+margin-left:10%;
+}
+#unusual{
+height:120px;
+width:96%;
+background-color:rgb(54, 54, 124);
+color:white;
+padding:8px;
+border-radius:10px;
+margin-top:8px;
+margin-bottom:66px;
+}
+h4{
+padding:2px;
+width:80%;
+height:40px;
+font-family:Arial;
+font-size:18px;
+color:white;
+box-shadow:2px 2px black;
+background-color:rgb(90, 6, 83);
+border:2px solid rgb(7, 189, 143);
+margin-top:2%;
+margin-left:  10%; 
+border-radius:50px; 
+text-align: center; 
+
+
+}
+.button1{
+    width:100%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(90, 6, 83);
+    border:2px solid rgb(7, 189, 143);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    margin-left:-2px;
+}
+.button1:active{
+    width:100%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(7, 189, 143);
+    border:2px solid rgb(90, 6, 83);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    margin-left:-2px;
+}
+.button2{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(90, 6, 83);
+    border:2px solid rgb(7, 189, 143);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+}
+.button2:active{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(7, 189, 143);
+    border:2px solid rgb(90, 6, 83);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+}
+.buttonsag{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(90, 6, 83);
+    border:2px solid rgb(7, 189, 143);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+   
+
+}
+.buttonsag:active{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(7, 189, 143);
+    border:2px solid rgb(90, 6, 83);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+}
+#takim1gosterge{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(90, 6, 83);
+    border:2px solid rgb(7, 189, 143);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+
+}
+#takim1gosterge:active{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(7, 189, 143);
+    border:2px solid rgb(90, 6, 83);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+}
+#takim2gosterge{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(90, 6, 83);
+    border:2px solid rgb(7, 189, 143);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+}
+#takim2gosterge:active{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(7, 189, 143);
+    border:2px solid rgb(90, 6, 83);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+}
+#gecmis{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(90, 6, 83);
+    border:2px solid rgb(7, 189, 143);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+}
+#gecmis:active{
+    width:48%;
+    height:60px;
+    border-radius:40px;
+    background-color:rgb(7, 189, 143);
+    border:2px solid rgb(90, 6, 83);
+    color:white;
+    font-size:16px;
+    font-family:Cambria;
+    box-shadow:2px 2px black;
+    
+    
+}
+#ayarbutton{
+    width:48%;
+    height:30px;
+    background-color:ghostwhite;
+    border:2px solid black;
+    margin-top:8px
+
+}

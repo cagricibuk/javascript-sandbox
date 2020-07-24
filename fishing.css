@@ -1,0 +1,42 @@
+body{
+    background-image:url(https://i.ytimg.com/vi/PenI9DE1dx4/maxresdefault.jpg);
+}
+.buttonyazi{
+    align-content: center;
+    transform: 50%;
+    text-align:center;
+    margin-top:10%;
+    background-color:white;
+    height:220px;
+    width:400px;
+    margin-left:36%;
+
+}
+button{
+    margin-top:6px;
+    color:white;
+    background-color:lightblue;
+    font-size:24px;
+    border:2px solid darkblue;
+    margin-left:100px;
+    
+
+}
+select{
+    background-color:grey;
+    height:180px;
+    width:150px;
+    margin-top:-20px;
+    border:3px solid lightseagreen;
+    color:blue;
+    
+}
+.inventory{
+    background-color:grey;
+    height:220px;
+    width:150px;
+    margin-top:-250px;
+    border:1px solid lightseagreen;
+    color:blue;
+
+}

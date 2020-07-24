@@ -1,0 +1,102 @@
+.status{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:yellow;
+    font-size:32px;
+    position:absolute;
+    margin-top:-20px;
+    margin-left:50px;
+    
+
+}
+.diskutu{
+width:320px;
+height:140px;
+background-color:black;
+border:3px solid blueviolet;
+margin-top:20px; 
+
+
+}
+.bar1{
+background-color:white;
+height:10px;
+width:240px;
+margin-top:16px;
+margin-left:70px;
+border-radius:50px;
+box-shadow:3px 3px gray; 
+
+
+}
+.bar2{
+background-color:white;
+height:10px;
+width:240px;
+margin-top:16px;
+margin-left:70px;
+border-radius:50px;
+box-shadow:3px 3px gray; 
+
+
+}
+.bar3{
+background-color:white;
+height:10px;
+width:240px;
+margin-top:16px;
+margin-left:70px;
+border-radius:50px;
+box-shadow:3px 3px gray; 
+
+
+
+
+}
+.yazi{
+color:white;
+width:60px;
+height:16px;
+margin-top:10px;
+margin-left:-65px;
+background-color:rgb(73, 82, 161);
+border-radius:50px;
+padding:1px;
+
+}
+#ilerleme1{
+background-color:green;
+height:8px;
+width:120px;
+margin-top:17px;
+margin-left:70px;
+border-radius:50px;
+position:absolute;
+
+}
+#ilerleme2{
+background-color:green;
+height:8px;
+width:160px;
+margin-top:17px;
+margin-left:70px;
+border-radius:50px;
+position:absolute;
+
+}
+#ilerleme3{
+background-color:green;
+height:8px;
+width:220px;
+margin-top:17px;
+margin-left:70px;
+border-radius:50px;
+position:absolute;
+
+}
+#yazi{
+
+text-align:center;
+border:2px solid yellow;
+
+color:white;
+}
